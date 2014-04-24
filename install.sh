@@ -21,6 +21,6 @@ for i in ru es ; do
 done
 
 echo "Removing xkb cache..."
-sudo rm /var/lib/xkb/*xkm
+rm /var/lib/xkb/*xkm 2>/dev/null
 
 echo "Done."
