@@ -17,7 +17,7 @@ cd /usr/share/X11/xkb/symbols || exit 1
 ln -s $TARGET_DIR/ru_es.layout ru_es
 for i in ru es ; do
   cp $i $TARGET_DIR/$i.bup
-  patch $i < $i.patch
+  patch $i < $TARGET_DIR/$i.patch
 done
 
 echo "Removing xkb cache..."
