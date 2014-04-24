@@ -1,0 +1,48 @@
+// Based on:
+// — Modified for a real Spanish keyboard by Jon Tombs.
+// — typographic keyboard by Sergei Stolyarov <sergei@regolit.com>
+//    — Initial contribution by Alexey Ten <alexeyten+deb@gmail.com>
+//    — Based on the layout proposed by Ilya Birman,
+//      http://ilyabirman.ru/typography-layout/
+
+partial hidden alphanumeric_keys
+xkb_symbols "mudasobwa" {
+    key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ]  }; // ~
+
+    key <AE01>  { [      grave,          1,  onesuperior,        U2135 ]  }; // 1
+    key <AE02>  { [         at,          2,        U2020,      onehalf ]  }; // 2
+    key <AE03>  { [ numbersign,          3,        U2021,        U266B ]  }; // 3
+    key <AE04>  { [     dollar,          4,        U2713,        U2717 ]  }; // 4
+    key <AE05>  { [       plus,          5,      percent,        U2030 ]  }; // 5
+    key <AE06>  { [   asterisk,          6,    ampersand,      notsign ]  }; // 6
+    key <AE07>  { [      slash,          7,        U2220,        U2228 ]  }; // 7
+    key <AE08>  { [  parenleft,          8,        U221E,        U2219 ]  }; // 8
+    key <AE09>  { [ parenright,          9,        U2208,        U2209 ]  }; // 9
+    key <AE10>  { [      equal,          0,        U220B,        U220C ]  }; // 0
+    key <AE11>  { [ apostrophe,   quotedbl,        U0300,        U0308 ]  };
+    key <AE12>  { [   question,     exclam, questiondown,   exclamdown ]  };
+
+    key <AC10>  { [   NoSymbol,   NoSymbol,     ccedilla,     Ccedilla ]  };
+    key <BKSL>  { [ asciicircum,    emdash,        U0302,       endash ]  };
+
+    key.type[group1]="FOUR_LEVEL";
+};
+
+partial hidden alphanumeric_keys
+xkb_symbols "mudasobwa_ru" {
+    key <AB10>  { [ comma, period, minus, underscore ]};
+    key <AC11>  { [ NoSymbol, NoSymbol, U0304, U0307 ]  };
+    key <AD11>  { [ NoSymbol, NoSymbol, bracketleft, dead_acute ] };
+    key <AD12>  { [ NoSymbol, NoSymbol, bracketright, dead_doubleacute ]  };
+    key <LSGT>  { [ NoSymbol, NoSymbol, U00AB, U00BB ]};
+};
+
+partial hidden alphanumeric_keys
+  xkb_symbols "mudasobwa_es" {
+    key <AB10>  { [ minus, underscore, U0336, U0332 ]};
+    key <AC11>  { [ braceleft, braceright, U0304, U0307 ]  };
+    key <AD11>  { [ bracketleft, less, dead_acute, dead_circumflex ] };
+    key <AD12>  { [ bracketright, greater, plus,      asterisk] };
+    key <LSGT>  { [ NoSymbol, NoSymbol, U00AB, U00BB ]};
+};
+

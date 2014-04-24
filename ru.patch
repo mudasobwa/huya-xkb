@@ -1,0 +1,26 @@
+diff --git 1/usr/share/X11/xkb/symbols/ru 2/tmp/ru
+index c486376..3cd2105 100644
+--- 1/usr/share/X11/xkb/symbols/ru
++++ 2/tmp/ru
+@@ -4,8 +4,20 @@
+ // 2001/12/23 by Leon Kanter <leon@blackcatlinux.com>
+ // 2005/12/09 Valery Inozemtsev <shrek@altlinux.ru>
+ 
+-// Windows layout
+ default  partial alphanumeric_keys
++xkb_symbols "mudasobwa" {
++
++    include "ru(common)"
++    include "ru_es(mudasobwa)"
++    include "ru_es(mudasobwa_ru)"
++
++    name[Group1]="Russian";
++
++    include "level3(ralt_switch)"
++};
++
++// Windows layout
++partial alphanumeric_keys
+ xkb_symbols "winkeys" {
+     include "ru(common)"
+ 

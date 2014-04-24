@@ -1,0 +1,23 @@
+diff --git 1/usr/share/X11/xkb/symbols/es 2/tmp/es
+index 62e2b2c..a5f8148 100644
+--- 1/usr/share/X11/xkb/symbols/es
++++ 2/tmp/es
+@@ -1,6 +1,18 @@
+ // Modified for a real Spanish keyboard by Jon Tombs.
+ 
+ default  partial alphanumeric_keys
++xkb_symbols "mudasobwa" {
++
++    include "es(basic)"
++    include "ru_es(mudasobwa)"
++    include "ru_es(mudasobwa_es)"
++
++    name[Group1]="Spanish";
++
++    include "level3(ralt_switch)"
++};
++
++partial alphanumeric_keys
+ xkb_symbols "basic" {
+ 
+     include "latin(type4)"
