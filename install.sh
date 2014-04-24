@@ -13,7 +13,7 @@ echo "Cloning the repository..."
 git clone https://github.com/mudasobwa/huya-xkb.git $TARGET_DIR
 cd $TARGET_DIR
 [ "$1" = "ask" ] && export ASK="true"
-cd /usr/share/X11/xkb/symbols || exit (1)
+cd /usr/share/X11/xkb/symbols || exit 1
 ln -s $TARGET_DIR/ru_es.layout ru_es
 for i in ru es ; do
   cp $i $TARGET_DIR/$i.bup
