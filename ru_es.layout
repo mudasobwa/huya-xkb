@@ -25,6 +25,8 @@ xkb_symbols "mudasobwa" {
     key <AC10>  { [   NoSymbol,   NoSymbol,     ccedilla,     Ccedilla ]  };
     key <BKSL>  { [ asciicircum,    emdash,        U0302,       endash ]  };
 
+    key <SPCE>  { [     space, nobreakspace,       U2009,        U200B ] };
+
     key.type[group1]="FOUR_LEVEL";
 };
 
