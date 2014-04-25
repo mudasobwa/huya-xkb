@@ -7,44 +7,81 @@
 
 partial hidden alphanumeric_keys
 xkb_symbols "mudasobwa" {
-    key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ]  }; // ~
 
-    key <AE01>  { [      grave,          1,  onesuperior,        U2135 ]  }; // 1
-    key <AE02>  { [         at,          2,        U2020,      onehalf ]  }; // 2
-    key <AE03>  { [ numbersign,          3,        U2021,        U266B ]  }; // 3
-    key <AE04>  { [     dollar,          4,        U2713,        U2717 ]  }; // 4
-    key <AE05>  { [       plus,          5,      percent,        U2030 ]  }; // 5
-    key <AE06>  { [   asterisk,          6,    ampersand,      notsign ]  }; // 6
-    key <AE07>  { [      slash,          7,        U2220,        U2228 ]  }; // 7
-    key <AE08>  { [  parenleft,          8,        U221E,        U2219 ]  }; // 8
-    key <AE09>  { [ parenright,          9,        U2208,        U2209 ]  }; // 9
-    key <AE10>  { [      equal,          0,        U220B,        U220C ]  }; // 0
-    key <AE11>  { [ apostrophe,   quotedbl,        U0300,        U0308 ]  };
-    key <AE12>  { [   question,     exclam, questiondown,   exclamdown ]  };
+// 1st keyboard row
+    key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ] }; // "~" → ~ | ≡ ≈ 
 
-    key <AC10>  { [   NoSymbol,   NoSymbol,     ccedilla,     Ccedilla ]  };
-    key <BKSL>  { [ asciicircum,    emdash,        U0302,       endash ]  };
+    key <AE01>  { [      grave,          1,  onesuperior,        U2135 ] }; // "1" → ` 1 ¹ ℵ
+    key <AE02>  { [         at,          2,        U2020,      onehalf ] }; // "2" → @ 2 † ½
+    key <AE03>  { [ numbersign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
+    key <AE04>  { [     dollar,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
+    key <AE05>  { [       plus,          5,      percent,        U2030 ] }; // "5" → + 5 % ‰
+    key <AE06>  { [   asterisk,          6,    ampersand,      notsign ] }; // "6" → * 6 & ¬
+    key <AE07>  { [      slash,          7,        U2220,        U2228 ] }; // "7" → / 7 ∠ ∨
+    key <AE08>  { [  parenleft,          8,   parenright,        U221E ] }; // "8" → ( 8 ) ∞
+    key <AE09>  { [  backslash,          9,        U2208,        U2209 ] }; // "9" → \ 9 ∈ ∉ // TODO
+    key <AE10>  { [      equal,          0,        U220B,        U220C ] }; // "0" → = 0 ∋ ∌ // TODO
+    key <AE11>  { [ apostrophe,   quotedbl,        U0300,        U0308 ] }; // "-" → ' " ̀ ̈
+    key <AE12>  { [     exclam,   question,   exclamdown, questiondown ] }; // "=" → ! ? ¡ ¿
 
-    key <SPCE>  { [     space, nobreakspace,       U2009,        U200B ] };
+// 2nd keyboard row
+    key <AD01> { [    NoSymbol,   NoSymbol,        U231A,        U231B ] }; // "q" → ̲ ̲ // TODO
+    key <AD02> { [    NoSymbol,   NoSymbol,        U2200,        U00AC ] }; // "w" → ̲ ̲ // TODO
+    key <AD03> { [    NoSymbol,   NoSymbol,        U2203,        U2204 ] }; // "e" → ̲ ̲ // TODO
+    key <AD04> { [    NoSymbol,   NoSymbol,   registered,        U221A ] }; // "r" → ̲ ̲ ® // TODO
+    key <AD05> { [    NoSymbol,   NoSymbol,    trademark,        U2709 ] }; // "t" → 
+    key <AD06> { [    NoSymbol,   NoSymbol,          yen,     EuroSign ] }; // "y" → 
+    key <AD07> { [    NoSymbol,   NoSymbol,        U25B6,        U25B7 ] }; // "u" → 
+    key <AD08> { [    NoSymbol,   NoSymbol,        U2022,        U25E6 ] }; // "i" → 
+    key <AD09> { [    NoSymbol,   NoSymbol,        U2205,        U2218 ] }; // "o" → 
+    key <AD10> { [    NoSymbol,   NoSymbol,        acute,  doubleacute ] }; // "p" → 
+
+// 3rd keyboard row
+    key <AC01> { [    NoSymbol,   NoSymbol,        U0301,        U2101 ] }; // "a" → 
+    key <AC02> { [    NoSymbol,   NoSymbol,      section,        U23CE ] }; // "s" → 
+    key <AC03> { [    NoSymbol,   NoSymbol,       degree,     division ] }; // "d" → 
+    key <AC04> { [    NoSymbol,   NoSymbol,        U261B,        U261E ] }; // "f" → 
+    key <AC05> { [    NoSymbol,   NoSymbol,        U2701,        U273F ] }; // "g" → 
+    key <AC06> { [    NoSymbol,   NoSymbol,        U2690,        U2691 ] }; // "h" → 
+    key <AC07> { [    NoSymbol,   NoSymbol, doublelowquotemark, singlelowquotemark] }; // "j" → 
+    key <AC08> { [    NoSymbol,   NoSymbol, leftdoublequotemark, leftsinglequotemark] }; // "k" → 
+    key <AC09> { [    NoSymbol,   NoSymbol, rightdoublequotemark, rightsinglequotemark] }; // "l" → 
+    key <AC10> { [    NoSymbol,   NoSymbol,     ccedilla,     Ccedilla ] }; // "ñ" → 
+
+    key <BKSL>  { [ asciicircum,    emdash,        U0302,       endash ] }; // "" → 
+
+// 4th keyboard row
+    key <AB02> { [    NoSymbol,   NoSymbol,     multiply,        U22C5 ] }; // "x" → 
+    key <AB03> { [    NoSymbol,   NoSymbol,    copyright,         cent ] }; // "c" → 
+    key <AB04> { [    NoSymbol,   NoSymbol,        U2606,        U2605 ] }; // "v" → 
+    key <AB05> { [    NoSymbol,   NoSymbol,        U260F,        U260E ] }; // "b" → 
+    key <AB06> { [    NoSymbol,   NoSymbol,        U2622,        U2623 ] }; // "n" → 
+    key <AB07> { [    NoSymbol,   NoSymbol,        U270E,        U270D ] }; // "m" → 
+    key <AB08> { [    NoSymbol,   NoSymbol, guillemotleft,       U2282 ] }; // "," → 
+    key <AB09> { [    NoSymbol,   NoSymbol, guillemotright,      U2283 ] }; // "." → 
+    key <AB10> { [    NoSymbol,   NoSymbol,     ellipsis,        U203D ] }; // "/" → 
+
+// 5th keyboard row
+    key <SPCE> { [       space, nobreakspace,      U2009,        U200B ] }; // " " → 
 
     key.type[group1]="FOUR_LEVEL";
 };
 
 partial hidden alphanumeric_keys
 xkb_symbols "mudasobwa_ru" {
-    key <AB10>  { [ comma, period, minus, underscore ]};
-    key <AC11>  { [ NoSymbol, NoSymbol, U0304, U0307 ]  };
-    key <AD11>  { [ NoSymbol, NoSymbol, bracketleft, bracketright ] };
-    key <AD12>  { [ NoSymbol, NoSymbol, backslash, degree ]  }; // TODO
-    key <LSGT>  { [ NoSymbol, NoSymbol, U00AB, U00BB ]};
+    key <AB10>  { [     period,      comma,        minus,   underscore ] };
+    key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
+    key <AD11>  { [   NoSymbol,   NoSymbol,  bracketleft, bracketright ] };
+    key <AD12>  { [   NoSymbol,   NoSymbol,    backslash,       degree ] }; // TODO
+    key <LSGT>  { [   NoSymbol,   NoSymbol,        U00AB,        U00BB ] };
 };
 
 partial hidden alphanumeric_keys
   xkb_symbols "mudasobwa_es" {
-    key <AB10>  { [ minus, underscore, U0336, U0332 ]};
-    key <AC11>  { [ braceleft, braceright, U0304, U0307 ]  };
-    key <AD11>  { [ bracketleft, bracketright, less, greater ] };
-    key <AD12>  { [ backslash, bar, notequal, plusminus ] };
-    key <LSGT>  { [ NoSymbol, NoSymbol, U00AB, U00BB ]};
+    key <AB10>  { [      minus, underscore,        U0336,        U0332 ] };
+    key <AC11>  { [  braceleft, braceright,        U0304,        U0307 ] };
+    key <AD11>  { [ bracketleft, bracketright,      less,      greater ] };
+    key <AD12>  { [  backslash,        bar,     notequal,    plusminus ] };
+    key <LSGT>  { [   NoSymbol,   NoSymbol,        U00AB,        U00BB ] };
 };
 
