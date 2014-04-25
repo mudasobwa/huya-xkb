@@ -14,7 +14,8 @@ echo "Cloning the repository..."
 [ -d $XKB_DIR ] || exit 1
 
 git clone https://github.com/mudasobwa/huya-xkb.git $TARGET_DIR
-[ -f $XKB_DIR/ru_es ] || ln -s $TARGET_DIR/ru_es.layout $XKB_DIR/ru_es
+[ -f $XKB_DIR/ru_es ] && rm -rf $XKB_DIR/ru_es
+ln -s $TARGET_DIR/ru_es.layout $XKB_DIR/ru_es
 
 pushd $TARGET_DIR
 for i in ru es ; do
