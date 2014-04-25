@@ -21,7 +21,10 @@ CURR_DIR=`pwd`
 cd $TARGET_DIR
 for i in ru es ; do
   cp -f $XKB_DIR/$i $TARGET_DIR/$i.bup
-  patch --dry-run $XKB_DIR/$i < $TARGET_DIR/$i.patch && patch -b $XKB_DIR/$i < $TARGET_DIR/$i.patch
+  patch -p0 -N --dry-run --silent $XKB_DIR/$i < $TARGET_DIR/$i.patch 2>/dev/null
+  if [ $? -eq 0 ]; then
+    patch -b $XKB_DIR/$i < $TARGET_DIR/$i.patch
+  fi
 done
 cd $CURR_DIR
 
