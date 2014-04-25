@@ -20,7 +20,7 @@ ln -s $TARGET_DIR/ru_es.layout $XKB_DIR/ru_es
 pushd $TARGET_DIR
 for i in ru es ; do
   cp -f $XKB_DIR/$i $TARGET_DIR/$i.bup
-  patch -b $XKB_DIR/$i < $TARGET_DIR/$i.patch
+  patch --dry-run $XKB_DIR/$i < $TARGET_DIR/$i.patch && patch -b $XKB_DIR/$i < $TARGET_DIR/$i.patch
 done
 popd
 
