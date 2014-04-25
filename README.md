@@ -8,4 +8,4 @@ Russian:
 
 Español:
 
-![RU](img/ru.png)
+![RU](img/es.png)
