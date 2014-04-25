@@ -17,12 +17,13 @@ git clone https://github.com/mudasobwa/huya-xkb.git $TARGET_DIR
 [ -f $XKB_DIR/ru_es ] && rm -rf $XKB_DIR/ru_es
 ln -s $TARGET_DIR/ru_es.layout $XKB_DIR/ru_es
 
-pushd $TARGET_DIR
+CURR_DIR=`pwd`
+cd $TARGET_DIR
 for i in ru es ; do
   cp -f $XKB_DIR/$i $TARGET_DIR/$i.bup
   patch -b $XKB_DIR/$i < $TARGET_DIR/$i.patch
 done
-popd
+cd $CURR_DIR
 
 echo "Removing xkb cache..."
 rm /var/lib/xkb/*xkm 2>/dev/null
