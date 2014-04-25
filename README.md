@@ -2,4 +2,10 @@
 
     sudo sh -c "`curl -fsSL https://raw.github.com/mudasobwa/huya-xkb/master/install.sh`"
 
-TODO: Describe layout
+Russian:
+
+![RU](img/ru.png)
+
+Español:
+
+![RU](img/es.png)
