@@ -13,13 +13,12 @@ xkb_symbols "mudasobwa" {
 
     key <AE01>  { [      grave,          1,  onesuperior,        U2135 ] }; // "1" → ` 1 ¹ ℵ
     key <AE02>  { [         at,          2,        U2020,      onehalf ] }; // "2" → @ 2 † ½
-    key <AE03>  { [ numbersign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
     key <AE04>  { [     dollar,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AE05>  { [       plus,          5,      percent,        U2030 ] }; // "5" → + 5 % ‰
     key <AE06>  { [   asterisk,          6,    ampersand,      notsign ] }; // "6" → * 6 & ¬
     key <AE07>  { [      slash,          7,        U2220,        U2228 ] }; // "7" → / 7 ∠ ∨
-    key <AE08>  { [  parenleft,          8,   parenright,        U221E ] }; // "8" → ( 8 ) ∞
-    key <AE09>  { [  backslash,          9,        U2192,        U21D2 ] }; // "9" → \ 9 → ⇒ // TODO
+    key <AE08>  { [  parenleft,          8,        U232A,        U221E ] }; // "8" → ( 8 ) ∞
+    key <AE09>  { [ parenright,          9,        U2192,        U21D2 ] }; // "9" → \ 9 → ⇒ // TODO
     key <AE10>  { [      equal,          0,        U21E8,        U21DB ] }; // "0" → = 0 ⇨ ⇛ // TODO
     key <AE11>  { [ apostrophe,   quotedbl,       emdash,       endash ] }; // "-" → ' " — –
     key <AE12>  { [     exclam,   question,   exclamdown, questiondown ] }; // "=" → ! ? ¡ ¿
@@ -49,8 +48,8 @@ xkb_symbols "mudasobwa" {
     key <AC10> { [    NoSymbol,   NoSymbol,     ccedilla,     Ccedilla ] }; // "ñ" → ̲ ̲ ç Ç
 
 // 4th keyboard row
-    key <AB01> { [    NoSymbol,   NoSymbol,     multiply,        U22C5 ] }; // "z" → ̲ ̲ « < 
-    key <AB02> { [    NoSymbol,   NoSymbol,     multiply,        U22C5 ] }; // "x" → ̲ ̲ × ⋅
+    key <AB01> { [    NoSymbol,   NoSymbol,        colon,        U22C5 ] }; // "z" → ̲ ̲ « < 
+    key <AB02> { [    NoSymbol,   NoSymbol,    semicolon,     multiply ] }; // "x" → ̲ ̲ × ⋅
     key <AB03> { [    NoSymbol,   NoSymbol,    copyright,         cent ] }; // "c" → ̲ ̲ © ¢
     key <AB04> { [    NoSymbol,   NoSymbol,        U2606,        U2605 ] }; // "v" → ̲ ̲ ☆ ★
     key <AB05> { [    NoSymbol,   NoSymbol,        U260F,        U260E ] }; // "b" → ̲ ̲ ☏ ☎
@@ -67,6 +66,7 @@ xkb_symbols "mudasobwa" {
 
 partial hidden alphanumeric_keys
 xkb_symbols "mudasobwa_ru" {
+    key <AE03>  { [ numerosign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
     key <AB10>  { [     period,      comma,     ellipsis,        minus ] };
     key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
     key <AD11>  { [   NoSymbol,   NoSymbol,  bracketleft, bracketright ] };
@@ -77,6 +77,7 @@ xkb_symbols "mudasobwa_ru" {
 
 partial hidden alphanumeric_keys
   xkb_symbols "mudasobwa_es" {
+    key <AE03>  { [ numbersign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
     key <AB10>  { [      minus, underscore,        U0336,        U0332 ] };
     key <AC11>  { [  braceleft, braceright,        U0304,        U0307 ] };
     key <AD11>  { [ bracketleft, bracketright,      less,      greater ] };
