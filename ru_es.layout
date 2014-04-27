@@ -12,8 +12,6 @@ xkb_symbols "mudasobwa" {
     key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ] }; // "~" → ~ | ≡ ≈ 
 
     key <AE01>  { [      grave,          1,  onesuperior,        U2135 ] }; // "1" → ` 1 ¹ ℵ
-    key <AE02>  { [         at,          2,        U2020,      onehalf ] }; // "2" → @ 2 † ½
-    key <AE04>  { [     dollar,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AE05>  { [       plus,          5,      percent,        U2030 ] }; // "5" → + 5 % ‰
     key <AE06>  { [   asterisk,          6,    ampersand,      notsign ] }; // "6" → * 6 & ¬
     key <AE07>  { [      slash,          7,        U2220,        U2228 ] }; // "7" → / 7 ∠ ∨
@@ -66,18 +64,22 @@ xkb_symbols "mudasobwa" {
 
 partial hidden alphanumeric_keys
 xkb_symbols "mudasobwa_ru" {
+    key <AE02>  { [      colon,          2,           at,      onehalf ] }; // "2" → @ 2 † ½
     key <AE03>  { [ numerosign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
+    key <AE04>  { [  semicolon,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AB10>  { [     period,      comma,     ellipsis,        minus ] };
     key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
     key <AD11>  { [   NoSymbol,   NoSymbol,  bracketleft, bracketright ] };
     key <AD12>  { [   NoSymbol,   NoSymbol,    braceleft,   braceright ] }; 
     key <LSGT>  { [   NoSymbol,   NoSymbol,        U00AB,        U00BB ] };
-    key <BKSL>  { [      colon,     period,       emdash,  asciicircum ] }; // "" → . , — ^
+    key <BKSL>  { [     emdash,     endash,       dollar,  asciicircum ] }; // "" → . , — ^
 };
 
 partial hidden alphanumeric_keys
   xkb_symbols "mudasobwa_es" {
+    key <AE02>  { [         at,          2,        U2020,      onehalf ] }; // "2" → @ 2 † ½
     key <AE03>  { [ numbersign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
+    key <AE04>  { [     dollar,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AB10>  { [      minus, underscore,        U0336,        U0332 ] };
     key <AC11>  { [  braceleft, braceright,        U0304,        U0307 ] };
     key <AD11>  { [ bracketleft, bracketright,      less,      greater ] };
