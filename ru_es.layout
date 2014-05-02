@@ -44,7 +44,7 @@ xkb_symbols "mudasobwa" {
     key <AC10> { [    NoSymbol,   NoSymbol,     ccedilla,     Ccedilla ] }; // "ñ" → ̲ ̲ ç Ç
 
 // 4th keyboard row
-    key <AB01> { [    NoSymbol,   NoSymbol,        colon,        U22C5 ] }; // "z" → ̲ ̲ « < 
+    key <AB01> { [    NoSymbol,   NoSymbol,        colon,        U22C5 ] }; // "z" → ̲ ̲ « <
     key <AB02> { [    NoSymbol,   NoSymbol,    semicolon,     multiply ] }; // "x" → ̲ ̲ × ⋅
     key <AB03> { [    NoSymbol,   NoSymbol,    copyright,         cent ] }; // "c" → ̲ ̲ © ¢
     key <AB04> { [    NoSymbol,   NoSymbol,        U2606,        U2605 ] }; // "v" → ̲ ̲ ☆ ★
@@ -55,14 +55,14 @@ xkb_symbols "mudasobwa" {
     key <AB09> { [    NoSymbol,   NoSymbol, guillemotright,      U2283 ] }; // "." → ̲ ̲ » ⊃
 
 // 5th keyboard row
-    key <SPCE> { [       space, nobreakspace,      U2009,        U200B ] }; // " " → spaces
+    key <SPCE> { [       space,      space, nobreakspace,        U200B ] }; // " " → spaces
 
     key.type[group1]="FOUR_LEVEL";
 };
 
 partial hidden alphanumeric_keys
 xkb_symbols "mudasobwa_ru" {
-    key <TLDE>  { [   NoSymbol,   NoSymbol,   asciitilde,          bar ] }; // "~" → ~ | ≡ ≈ 
+    key <TLDE>  { [   NoSymbol,   NoSymbol,   asciitilde,          bar ] }; // "~" → ~ | ≡ ≈
 
     key <AE02>  { [      colon,          2,           at,      onehalf ] }; // "2" → @ 2 † ½
     key <AE03>  { [ numerosign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
@@ -70,14 +70,14 @@ xkb_symbols "mudasobwa_ru" {
     key <AB10>  { [     period,      comma,     ellipsis,        minus ] };
     key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
     key <AD11>  { [   NoSymbol,   NoSymbol,  bracketleft, bracketright ] };
-    key <AD12>  { [   NoSymbol,   NoSymbol,    braceleft,   braceright ] }; 
+    key <AD12>  { [   NoSymbol,   NoSymbol,    braceleft,   braceright ] };
     key <LSGT>  { [   NoSymbol,   NoSymbol,        U00AB,        U00BB ] };
     key <BKSL>  { [     emdash,     endash,       dollar,  asciicircum ] }; // "" → . , — ^
 };
 
 partial hidden alphanumeric_keys
   xkb_symbols "mudasobwa_es" {
-    key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ] }; // "~" → ~ | ≡ ≈ 
+    key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ] }; // "~" → ~ | ≡ ≈
 
     key <AE02>  { [         at,          2,        U2020,      onehalf ] }; // "2" → @ 2 † ½
     key <AE03>  { [ numbersign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
