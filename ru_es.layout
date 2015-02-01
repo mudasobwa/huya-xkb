@@ -13,7 +13,7 @@ xkb_symbols "mudasobwa" {
     key <AE05>  { [       plus,          5,      percent,        U2030 ] }; // "5" → + 5 % ‰
     key <AE06>  { [   asterisk,          6,  asciicircum,      notsign ] }; // "6" → * 6 ^ ¬
     key <AE07>  { [      slash,          7,    ampersand,        U2228 ] }; // "7" → / 7 & ∨
-    key <AE08>  { [  parenleft,          8,        U232A,        U221E ] }; // "8" → ( 8 ) ∞
+    key <AE08>  { [  parenleft,          8,        U232A,        U2215 ] }; // "8" → ( 8 ) ∞
     key <AE09>  { [ parenright,          9,        U21D2,        U21D0 ] }; // "9" → ) 9 ⇒ ⇐
     key <AE10>  { [      equal,          0,        U21D3,        U21D1 ] }; // "0" → = 0 ⇓ ⇑
     key <AE11>  { [ apostrophe,   quotedbl,       emdash,       endash ] }; // "-" → ' " — –
