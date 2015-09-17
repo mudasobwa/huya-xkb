@@ -71,7 +71,7 @@ xkb_symbols "mudasobwa_ru" {
     key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
     key <AD11>  { [   NoSymbol,   NoSymbol,  bracketleft, bracketright ] };
     key <AD12>  { [   NoSymbol,   NoSymbol,    braceleft,   braceright ] };
-    key <LSGT>  { [   NoSymbol,   NoSymbol,        U00AB,        U00BB ] };
+    key <LSGT>  { [      U2237,      U2239,        U223B,        U262B ] };
     key <BKSL>  { [     emdash,     endash,        slash,    bachslash ] }; // — – / \
 };
 
