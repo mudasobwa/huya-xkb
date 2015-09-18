@@ -71,7 +71,7 @@ xkb_symbols "mudasobwa_ru" {
     key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
     key <AD11>  { [   NoSymbol,   NoSymbol,  bracketleft, bracketright ] };
     key <AD12>  { [   NoSymbol,   NoSymbol,    braceleft,   braceright ] };
-    key <LSGT>  { [      U2237,      U2239,        U223B,        U262B ] };
+    key <LSGT>  { [      minus,      U2239,        U03BB,        U039B ] };
     key <AA02>  { [      U2237,      U2239,        U223B,        U262B ] };
     key <BKSL>  { [     emdash,     endash,        slash,    bachslash ] }; // — – / \
 };
@@ -87,7 +87,7 @@ partial hidden alphanumeric_keys
     key <AC11>  { [  braceleft, braceright,        U0308,        U0303 ] };
     key <AD11>  { [ bracketleft, bracketright,  ellipsis,          euro] };
     key <AD12>  { [       less,    greater,     notequal,    plusminus ] };
-    key <LSGT>  { [      U2237,      U2239,        U223B,        U262B ] };
+    key <LSGT>  { [      minus,      U2239,        U03BB,        U039B ] };
     key <BKSL>  { [      slash,  backslash,        U0302,       endash ] }; // "" → ^ — ̂ –
 };
 
