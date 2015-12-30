@@ -13,7 +13,7 @@ xkb_symbols "mudasobwa" {
     key <AE05>  { [       plus,          5,      percent,        U2030 ] }; // "5" → + 5 % ‰
     key <AE06>  { [   asterisk,          6,  asciicircum,      notsign ] }; // "6" → * 6 ^ ¬
     key <AE07>  { [      slash,          7,    ampersand,        U2228 ] }; // "7" → / 7 & ∨
-    key <AE08>  { [  parenleft,          8,        U232A,        U2215 ] }; // "8" → ( 8 ) ∞
+    key <AE08>  { [  parenleft,          8,        U22E1,        U03BC ] }; // "8" → ( 8 ∞ μ
     key <AE09>  { [ parenright,          9,        U21D2,        U21D0 ] }; // "9" → ) 9 ⇒ ⇐
     key <AE10>  { [      equal,          0,        U21D3,        U21D1 ] }; // "0" → = 0 ⇓ ⇑
     key <AE11>  { [ apostrophe,   quotedbl,       emdash,       endash ] }; // "-" → ' " — –
@@ -25,7 +25,7 @@ xkb_symbols "mudasobwa" {
     key <AD03> { [    NoSymbol,   NoSymbol,        U2203,        U2204 ] }; // "e" → ̲ ̲ ∃ ∄ // TODO
     key <AD04> { [    NoSymbol,   NoSymbol,   registered,        U221A ] }; // "r" → ̲ ̲ ® √ // TODO
     key <AD05> { [    NoSymbol,   NoSymbol,    trademark,        U2709 ] }; // "t" → ̲ ̲ ™ ✉
-    key <AD06> { [    NoSymbol,   NoSymbol,          yen,     EuroSign ] }; // "y" → ̲ ̲ ¥ €
+    key <AD06> { [    NoSymbol,   NoSymbol,     EuroSign,          yen ] }; // "y" → ̲ ̲ € ¥
     key <AD07> { [    NoSymbol,   NoSymbol,        U25B6,        U25B7 ] }; // "u" → ̲ ̲ ▶ ▷
     key <AD08> { [    NoSymbol,   NoSymbol,        U2022,        U25E6 ] }; // "i" → ̲ ̲ • ◦
     key <AD09> { [    NoSymbol,   NoSymbol,        U2205,        U2218 ] }; // "o" → ̲ ̲ ∅ ∘
@@ -65,7 +65,7 @@ xkb_symbols "mudasobwa_ru" {
     key <TLDE>  { [   NoSymbol,   NoSymbol,   asciitilde,          bar ] }; // "~" → ~ | ≡ ≈
 
     key <AE02>  { [      colon,          2,           at,      onehalf ] }; // "2" → @ 2 † ½
-    key <AE03>  { [      minus,          3,        U2021,        U266B ] }; // "3" → - 3 ‡ ♫
+    key <AE03>  { [      minus,          3,   underscore,        U266B ] }; // "3" → - 3 _ ♫
     key <AE04>  { [  semicolon,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AB10>  { [     period,      comma,     ellipsis,   numerosign ] };
     key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
