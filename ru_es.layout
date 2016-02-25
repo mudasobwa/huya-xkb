@@ -28,7 +28,7 @@ xkb_symbols "mudasobwa" {
     key <AD06> { [    NoSymbol,   NoSymbol,     EuroSign,          yen ] }; // "y" → ̲ ̲ € ¥
     key <AD07> { [    NoSymbol,   NoSymbol,        U25B6,        U25B7 ] }; // "u" → ̲ ̲ ▶ ▷
     key <AD08> { [    NoSymbol,   NoSymbol,        U2022,        U25E6 ] }; // "i" → ̲ ̲ • ◦
-    key <AD09> { [    NoSymbol,   NoSymbol,        U2205,        U2218 ] }; // "o" → ̲ ̲ ∅ ∘
+    key <AD09> { [    NoSymbol,   NoSymbol,        U25C9,        U25CE ] }; // "o" → ̲ ̲ ◉ ◎
     key <AD10> { [    NoSymbol,   NoSymbol,        acute,  doubleacute ] }; // "p" → ̲ ̲ ´ ˝
 
 // 3rd keyboard row
