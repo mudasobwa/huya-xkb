@@ -87,7 +87,7 @@ partial hidden alphanumeric_keys
     key <AC11>  { [  braceleft, braceright,        U0308,        U0303 ] };
     key <AD11>  { [ bracketleft, bracketright,  ellipsis,          euro] };
     key <AD12>  { [       less,    greater,     notequal,    plusminus ] };
-    key <LSGT>  { [      minus,      U2239,        U03BB,        U039B ] };
+    key <LSGT>  { [      U03BB,      U039B,        U0302,        U0306 ] };
     key <BKSL>  { [      slash,  backslash,        U0302,       endash ] }; // "" → ^ — ̂ –
 };
 
