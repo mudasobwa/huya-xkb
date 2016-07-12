@@ -51,8 +51,8 @@ xkb_symbols "mudasobwa" {
     key <AB05> { [    NoSymbol,   NoSymbol,        U266F,        U235F ] }; // "b" → ̲ ̲   ⍟
     key <AB06> { [    NoSymbol,   NoSymbol,        U2622,        U267B ] }; // "n" → ̲ ̲ ☢ ♻
     key <AB07> { [    NoSymbol,   NoSymbol,        U270E,        U270D ] }; // "m" → ̲ ̲ ✎ ✍
-    key <AB08> { [    NoSymbol,   NoSymbol, guillemotleft,       U2282 ] }; // "," → ̲ ̲ « ⊂
-    key <AB09> { [    NoSymbol,   NoSymbol, guillemotright,      U2283 ] }; // "." → ̲ ̲ » ⊃
+    key <AB08> { [    NoSymbol,   NoSymbol, guillemotleft,       U2208 ] }; // "," → ̲ ̲ « ⊂
+    key <AB09> { [    NoSymbol,   NoSymbol, guillemotright,      U2209 ] }; // "." → ̲ ̲ » ⊃
 
 // 5th keyboard row
     key <SPCE> { [       space,      space, nobreakspace,        U200B ] }; // " " → spaces
