@@ -12,7 +12,7 @@ xkb_symbols "mudasobwa" {
     key <AE01>  { [      grave,          1,  onesuperior,        U2135 ] }; // "1" → ` 1 ¹ ℵ
     key <AE05>  { [       plus,          5,      percent,        U2030 ] }; // "5" → + 5 % ‰
     key <AE06>  { [   asterisk,          6,  asciicircum,      notsign ] }; // "6" → * 6 ^ ¬
-    key <AE07>  { [      slash,          7,    ampersand,        U2228 ] }; // "7" → / 7 & ∨
+    key <AE07>  { [      slash,          7,    ampersand,        U0338 ] }; // "7" → / 7 & /
     key <AE08>  { [  parenleft,          8,        U221E,        U03BC ] }; // "8" → ( 8 ∞ μ
     key <AE09>  { [ parenright,          9,        U21D2,        U21D0 ] }; // "9" → ) 9 ⇒ ⇐
     key <AE10>  { [      equal,          0,        U21D3,        U21D1 ] }; // "0" → = 0 ⇓ ⇑
