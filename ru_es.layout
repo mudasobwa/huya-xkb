@@ -10,9 +10,9 @@ xkb_symbols "mudasobwa" {
 
 // 1st keyboard row
     key <AE01>  { [      grave,          1,  onesuperior,        U2135 ] }; // "1" → ` 1 ¹ ℵ
-    key <AE05>  { [       plus,          5,      percent,        U2030 ] }; // "5" → + 5 % ‰
-    key <AE06>  { [   asterisk,          6,  asciicircum,      notsign ] }; // "6" → * 6 ^ ¬
-    key <AE07>  { [      slash,          7,    ampersand,        U0338 ] }; // "7" → / 7 & /
+    key <AE05>  { [    percent,          5,         plus,        U2030 ] }; // "5" → % 5 + ‰
+    key <AE06>  { [asciicircum,          6,     asterisk,      notsign ] }; // "6" → ^ 6 * ¬
+    key <AE07>  { [  ampersand,          7,        slash,        U0338 ] }; // "7" → & 7 / /
     key <AE08>  { [  parenleft,          8,        U221E,        U03BC ] }; // "8" → ( 8 ∞ μ
     key <AE09>  { [ parenright,          9,        U21D2,        U21D0 ] }; // "9" → ) 9 ⇒ ⇐
     key <AE10>  { [      equal,          0,        U21D3,        U21D1 ] }; // "0" → = 0 ⇓ ⇑
@@ -80,7 +80,7 @@ partial hidden alphanumeric_keys
   xkb_symbols "mudasobwa_es" {
     key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ] }; // "~" → ~ | ≡ ≈
 
-    key <AE02>  { [         at,          2,        U2020,      onehalf ] }; // "2" → @ 2 † ½
+    key <AE02>  { [   asterisk,          2,           at,      onehalf ] }; // "2" → * 2 @ ½
     key <AE03>  { [ numbersign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
     key <AE04>  { [     dollar,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AB10>  { [      minus, underscore,        U0336,        U0332 ] };
