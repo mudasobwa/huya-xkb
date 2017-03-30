@@ -80,9 +80,9 @@ partial hidden alphanumeric_keys
   xkb_symbols "mudasobwa_es" {
     key <TLDE>  { [ asciitilde,        bar,        U2261,     approxeq ] }; // "~" → ~ | ≡ ≈
 
-    key <AE02>  { [         at,          2,       dollar,      onehalf ] }; // "2" → @ 2 $ ½
+    key <AE02>  { [         at,          2,  twosuperior,      onehalf ] }; // "2" → @ 2 $ ½
     key <AE03>  { [ numbersign,          3,        U2021,        U266B ] }; // "3" → # 3 ‡ ♫
-    key <AE04>  { [   asterisk,          4,        U2713,        U2717 ] }; // "4" → * 4 ✓ ✗
+    key <AE04>  { [     dollar,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AB10>  { [      minus, underscore,        U0336,        U0332 ] };
     key <AC11>  { [  braceleft, braceright,        U0308,        U0303 ] };
     key <AD11>  { [ bracketleft, bracketright,  ellipsis,          euro] };
