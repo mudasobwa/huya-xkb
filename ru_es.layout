@@ -34,7 +34,7 @@ xkb_symbols "mudasobwa" {
 // 3rd keyboard row
     key <AC01> { [    NoSymbol,   NoSymbol,        U0301,        U0300 ] }; // "a" → ̲ ̲ ́  ̀
     key <AC02> { [    NoSymbol,   NoSymbol,      section,        U23CE ] }; // "s" → ̲ ̲ § ⏎
-    key <AC03> { [    NoSymbol,   NoSymbol,       degree,        UFFFF ] }; // "d" → ̲ ̲ ° ○
+    key <AC03> { [    NoSymbol,   NoSymbol,       degree,        UFFFD ] }; // "d" → ̲ ̲ ° �
     key <AC04> { [    NoSymbol,   NoSymbol,        U261B,        U261E ] }; // "f" → ̲ ̲ ☛ ☞
     key <AC05> { [    NoSymbol,   NoSymbol,        U2690,        U2691 ] }; // "g" → ̲ ̲ ⚐ ⚑
     key <AC06> { [    NoSymbol,   NoSymbol,        U2764,        U03C0 ] }; // "h" → ̲ ̲ ❤ π
