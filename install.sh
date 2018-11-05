@@ -31,4 +31,7 @@ cd $CURR_DIR
 echo "Removing xkb cache..."
 rm /var/lib/xkb/*xkm 2>/dev/null
 
+echo "Executing setxkbmap..."
+setxkbmap
+
 echo "Done."
