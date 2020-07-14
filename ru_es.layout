@@ -34,7 +34,7 @@ xkb_symbols "mudasobwa" {
 // 3rd keyboard row
     key <AC01> { [    NoSymbol,   NoSymbol,        U0301,        U0300 ] }; // "a" → ̲ ̲ ́  ̀
     key <AC02> { [    NoSymbol,   NoSymbol,      section,        U23CE ] }; // "s" → ̲ ̲ § ⏎
-    key <AC03> { [    NoSymbol,   NoSymbol,       degree,        UFFFD ] }; // "d" → ̲ ̲ ° �
+    key <AC03> { [    NoSymbol,   NoSymbol,        U03B4,        U0394 ] }; // "d" → ̲ ̲ δ Δ
     key <AC04> { [    NoSymbol,   NoSymbol,        U261B,        U2139 ] }; // "f" → ̲ ̲ ☛ ℹ
     key <AC05> { [    NoSymbol,   NoSymbol,        U2690,        U2691 ] }; // "g" → ̲ ̲ ⚐ ⚑
     key <AC06> { [    NoSymbol,   NoSymbol,        U2764,        U03C0 ] }; // "h" → ̲ ̲ ❤ π
@@ -48,9 +48,9 @@ xkb_symbols "mudasobwa" {
     key <AB02> { [    NoSymbol,   NoSymbol,        U037E,     multiply ] }; // "x" → ̲ ̲ ; ×
     key <AB03> { [    NoSymbol,   NoSymbol,    copyright,         cent ] }; // "c" → ̲ ̲ © ¢
     key <AB04> { [    NoSymbol,   NoSymbol,        U2606,        U2605 ] }; // "v" → ̲ ̲ ☆ ★
-    key <AB05> { [    NoSymbol,   NoSymbol,        U266F,        U235F ] }; // "b" → ̲ ̲   ⍟
+    key <AB05> { [    NoSymbol,   NoSymbol,        U266F,       degree ] }; // "b" → ̲ ̲   °
     key <AB06> { [    NoSymbol,   NoSymbol,        U2622,        U267B ] }; // "n" → ̲ ̲ ☢ ♻
-    key <AB07> { [    NoSymbol,   NoSymbol,        U270E,        U270D ] }; // "m" → ̲ ̲ ✎ ✍
+    key <AB07> { [    NoSymbol,   NoSymbol,        U270E,        UFFFD ] }; // "m" → ̲ ̲ ✎ �
     key <AB08> { [    NoSymbol,   NoSymbol, guillemotleft,       U2208 ] }; // "," → ̲ ̲ « ⊂
     key <AB09> { [    NoSymbol,   NoSymbol, guillemotright,      U2209 ] }; // "." → ̲ ̲ » ⊃
 
