@@ -45,7 +45,7 @@ xkb_symbols "mudasobwa" {
 
 // 4th keyboard row
     key <AB01> { [    NoSymbol,   NoSymbol,        U03BB,        U039B ] }; // "z" → ̲ ̲λ, Λ
-    key <AB02> { [    NoSymbol,   NoSymbol,        U037E,     multiply ] }; // "x" → ̲ ̲ ; ×
+    key <AB02> { [    NoSymbol,   NoSymbol,        U00F7,     multiply ] }; // "x" → ̲ ̲ ÷ ×
     key <AB03> { [    NoSymbol,   NoSymbol,    copyright,         cent ] }; // "c" → ̲ ̲ © ¢
     key <AB04> { [    NoSymbol,   NoSymbol,        U2606,        U2605 ] }; // "v" → ̲ ̲ ☆ ★
     key <AB05> { [    NoSymbol,   NoSymbol,        U266F,       degree ] }; // "b" → ̲ ̲   °
