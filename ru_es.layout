@@ -65,7 +65,7 @@ xkb_symbols "mudasobwa_ru" {
     key <TLDE>  { [   NoSymbol,   NoSymbol,   asciitilde,          bar ] }; // "~" → ~ | ≡ ≈
 
     key <AE02>  { [      colon,          2,           at,      onehalf ] }; // "2" → @ 2 † ½
-    key <AE03>  { [      minus,          3,   underscore,        U266B ] }; // "3" → - 3 _ ♫
+    key <AE03>  { [      minus,          3,   underscore,        U2116 ] }; // "3" → - 3 _ №
     key <AE04>  { [  semicolon,          4,        U2713,        U2717 ] }; // "4" → $ 4 ✓ ✗
     key <AB10>  { [     period,      comma,     ellipsis,   numerosign ] };
     key <AC11>  { [   NoSymbol,   NoSymbol,        U0304,        U0307 ] };
