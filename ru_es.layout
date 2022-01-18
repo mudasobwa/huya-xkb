@@ -33,7 +33,7 @@ xkb_symbols "mudasobwa" {
 
 // 3rd keyboard row
     key <AC01> { [    NoSymbol,   NoSymbol,        U0301,        U0300 ] }; // "a" → ̲ ̲ ́  ̀
-    key <AC02> { [    NoSymbol,   NoSymbol,      section,        U23CE ] }; // "s" → ̲ ̲ § ⏎
+    key <AC02> { [    NoSymbol,   NoSymbol,        U0301,        U0300 ] }; // "s" → ̲ ̲ § ⏎
     key <AC03> { [    NoSymbol,   NoSymbol,        U03B4,        U0394 ] }; // "d" → ̲ ̲ δ Δ
     key <AC04> { [    NoSymbol,   NoSymbol,        U261B,        U2139 ] }; // "f" → ̲ ̲ ☛ ℹ
     key <AC05> { [    NoSymbol,   NoSymbol,        U2690,        U2691 ] }; // "g" → ̲ ̲ ⚐ ⚑
