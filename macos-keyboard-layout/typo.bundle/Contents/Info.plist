@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleIdentifier</key>
+  <string>me.elagin.kir.keyboardlayout.typo</string>
+  <key>CFBundleName</key>
+  <string>Typo Layouts</string>
+  <key>CFBundleVersion</key>
+  <string></string>
+  <key>KLInfo_English – Typography</key>
+  <dict>
+    <key>TISInputSourceID</key>
+    <string>me.elagin.kir.keyboardlayout.typo.en</string>
+    <key>TISIntendedLanguage</key>
+    <string>en</string>
+  </dict>
+  <key>KLInfo_Russian – Typography</key>
+  <dict>
+    <key>TISInputSourceID</key>
+    <string>me.elagin.kir.keyboardlayout.typo.ru</string>
+    <key>TISIntendedLanguage</key>
+    <string>ru</string>
+  </dict>
+</dict>
+</plist>

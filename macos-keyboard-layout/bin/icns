@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+# SPDX-License-Identifier: MPL-2.0
+# © 2019 Kirill Elagin <kirelagin@gmail.com>
+
+# This script helps build keyboard layout indicator icons.
+#
+# Use: ./icns <layout name> <16 bit png path> <32 bit png path>
+
+set -e
+
+lname="$1"
+png16="$2"
+png32="$3"
+
+if [ -z "$1" -o -z "$2" -o -z "$3" ]; then
+  echo "Use: $0 <layout name> <16 bit png path> <32 bit png path>" >&2
+  exit 1
+fi
+
+tmpdir=$(mktemp -d -t icns)
+trap "{ rm -rf \"$tmpdir\"; }" EXIT
+iconset="$tmpdir"/"$lname".iconset
+mkdir -p "$iconset"
+
+cp "$png16" "$iconset/icon_16x16.png"
+cp "$png32" "$iconset/icon_16x16@2x.png"
+cp "$png32" "$iconset/icon_32x32.png"
+
+iconutil --convert icns --output "$lname.icns" "$iconset"
